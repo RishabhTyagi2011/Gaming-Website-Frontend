@@ -1,0 +1,19 @@
+.outer {
+  position: absolute;
+  color: white;
+  background-color: rgb(165, 23, 47);
+  width: 30%;
+  max-width: 500px;
+  height: 12%;
+  padding: 6px 0px 0px 20px ;
+  right: 1px;
+  bottom: 10%;
+}
+
+.snack-Button{
+    position: absolute;
+    right: 5px;
+    border: none;
+    background: padding-box;
+    top: 8px;
+}

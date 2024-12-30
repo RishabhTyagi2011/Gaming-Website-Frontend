@@ -1,0 +1,46 @@
+.signup .card {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  box-shadow: 0 12.2px 50.7px 1px rgb(0 0 0 / 13%);
+  border-radius: 25px;
+  width: 1100px;
+  height: 750px;
+  position: relative;
+  top: 0;
+}
+.signup .card .desk {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.signup .card.form-outer-signup .spacing {
+  justify-content: space-between;
+}
+@media screen and (min-width: 980px) {
+  .signup .form-outer-signup {
+    padding: 75px 70px 100px 54px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transition: 1s left;
+  }
+  .signup .form-image-signup {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    z-index: 111;
+    transition: 1s left;
+  }
+}
+@media screen and (max-width: 980px) {
+  .signup .form-outer-signup {
+    padding: 75px 70px 100px 54px;
+    width: 100%;
+  }
+  .signup .form-image-signup {
+    display: none;
+  }
+}

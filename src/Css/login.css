@@ -1,0 +1,61 @@
+.login .card {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  box-shadow: 0 12.2px 50.7px 1px rgb(0 0 0 / 13%);
+  border-radius: 25px;
+  position: relative;
+  top: 0;
+  width: 1100px;
+  height: 750px;
+}
+.login .card .desk {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.login .card.form-outer-login .spacing {
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 980px) {
+  .login .form-image-login {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transition: 1s left;
+  }
+  .login .form-outer-login {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px 50px;
+    width: 40%;
+    transition: 1s left;
+  }
+}
+@media screen and (max-width: 980px) {
+  .login .form-image-login {
+    display: none;
+  }
+  .login .form-outer-login {
+    padding: 50px 50px;
+    width: 100%;
+  }
+}
+.inputEmailStyle {
+  padding: 16px 40px 16px 9px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 4px;
+}
+.inputPasswordStyle {
+  padding: 16px 40px 16px 9px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 4px;
+}
